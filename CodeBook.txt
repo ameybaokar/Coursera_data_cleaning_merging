@@ -1,0 +1,36 @@
+The description of the variables in the output dataset is provided below:
+
+1. Subject - The person whose data was recorded
+2. Activity - The activity whose data was recorded for a particular person
+
+Rest all the column names are descriptive and calculate the average of the data per subject per activity. To explain through an example:
+
+time_signal_for_acceleration_by_body-mean()-X:
+This variable specifies the mean by subject and activity of the varibale "tBodyAcc - mean() - X" in the original dataset. 
+
+The mapping of the output column names and the input dataset column names is provided below:
+
+tBodyAcc		 - time_signal_for_acceleration_by_body
+tGravityAcc		 - time_signal_for_acceleration_by_gravitation
+tBodyAccJerk		 - time_signal_for_body_jerk_derived_from_body_linear_acceleration
+tBodyGyro		 - time_signal_for_body_angular_velocity
+tBodyGyroJerk		 - time_signal_for_body_jerk_derived_from_body_angular_velocity
+tBodyAccMag		 - Magnitude_of_time_signal_for_acceleration_by_body
+tGravityAccMag		 - Magnitude_of_time_signal_for_acceleration_by_gravitation
+tBodyAccJerkMag		 - Magnitude_of_time_signal_for_body_jerk_derived_from_body_linear_acceleration
+tBodyGyroMag		 - Magnitude_of_time_signal_for_body_angular_velocity
+tBodyGyroJerkMag 	 - Magnitude_of_time_signal_for_body_jerk_derived_from_body_angular_velocity
+fBodyAcc		 - Fast_Fourier_Transform_of_time_signal_for_acceleration_by_body
+fBodyAccJerk		 - Fast_Fourier_Transform_of_time_signal_for_body_jerk_derived_from_body_linear_acceleration
+fBodyGyro		 - Fast_Fourier_Transform_of_time_signal_for_body_angular_velocity
+fBodyAccMag		 - Fast_Fourier_Transform_of_Magnitude_of_time_signal_for_acceleration_by_body
+fBodyAccJerkMag		 - Fast_Fourier_Transform_of_Magnitude_of_time_signal_for_body_jerk_derived_from_body_linear_acceleration
+fBodyGyroMag		 - Fast_Fourier_Transform_of_Magnitude_of_time_signal_for_body_angular_velocity
+fBodyGyroJerkMag 	 - Fast_Fourier_Transform_of_Magnitude_of_time_signal_for_body_jerk_derived_from_body_angular_velocity
+fBodyBodyAccJerkMag 	 - Fast_Fourier_Transform_of_Magnitude_of_time_signal_for_body_jerk_derived_from_body_linear_acceleration
+fBodyBodyGyroMag	 - Fast_Fourier_Transform_of_Magnitude_of_time_signal_for_body_angular_velocity
+fBodyBodyGyroJerkMag	 - Fast_Fourier_Transform_of_Magnitude_of_time_signal_for_body_jerk_derived_from_body_angular_velocity
+ 
+ 
+
+
